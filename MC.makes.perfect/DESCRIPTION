@@ -1,0 +1,12 @@
+Package: MC.makes.perfect
+Type: Package
+Title: Monte Carlo integration 
+Version: 1.0.1
+Author: Wei Ching Huang and Cheng Wei Wei
+Maintainer: Wei Ching Huang and Cheng Wei Wei <david850803@gmail.com>
+Description: Calculate integration by Monte Carlo method and numerical method.
+Depends: R(>= 3.0.1)
+License: GPL(>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
