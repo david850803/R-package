@@ -101,9 +101,7 @@ t.recursion <- function(ftn, a, b, c, fa, fb, fc, I.old, tol, level, trace)
 #' @param n number of partitions.
 #' @details The lengths of the partitions are not equal and the partitions are randomly selected by uniform distribution[a, b].
 #' The uniform distribution has density
-
 #' f(x) = 1/(max - min)
-
 #' for min ≤ x ≤ max.
 #' @export
 #' @seealso \code{integrate}
@@ -142,9 +140,7 @@ trapezoid_rp <- function(ftn, a, b, n)
 #' @param trace if trace is TRUE then intermediate results are printed.
 #' @details The variable tol is the tolerant error of the approximated integration and the partitions are randomly selected by uniform distribution [a, b].
 #' The uniform distribution has density
-
 #' f(x) = 1/(max - min)
-
 #' for min ≤ x ≤ max.
 #' t.recursion is the function that recursively improves the partitions such that the summation of the errors is less than the tolerant error.
 #' @export
